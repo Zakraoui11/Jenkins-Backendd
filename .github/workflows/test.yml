@@ -22,5 +22,3 @@ jobs:
       
       - name: Simuler un test
         run: echo "Tous les tests sont passés avec succès!"
-
-        Ajout du premier workflow
