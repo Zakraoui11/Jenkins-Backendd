@@ -3,22 +3,12 @@ name: Test Pipeline
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-      
-      - name: Afficher un message
-        run: echo "Hello World - Pipeline de test!"
-      
-      - name: Afficher la date
-        run: date
-      
-      - name: Simuler un test
-        run: echo "Tous les tests sont passés avec succès!"
+      - name: Hello
+        run: echo "Hello World from CI/CD!"
