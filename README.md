@@ -1,1 +1,1 @@
-Konnichiwa Arigato
+Konnichiwa Arigatoo
